@@ -1,0 +1,41 @@
+/* .box{
+  border : 50px solid red;
+  width : 200px
+  
+}
+
+.boxgreen{
+  border : 50px solid green;
+  width : 200px
+  
+}
+
+.boxblue{
+  border : 50px solid blue;
+  width : 200px
+  
+} */
+
+/* .size {
+  padding : 50px;
+}
+
+.margin{
+  margin-bottom : 20px;
+} */
+div div{
+    padding : 50px;
+    width : 200px;
+    background : purple;
+  }
+  
+  .box{
+    border : 50px solid red;
+  }
+  .box_green{
+    border : 50px solid green;
+    margin : 20px 0px;
+  }
+  .box_blue{
+    border : 50px solid blue;
+  }

@@ -1,0 +1,133 @@
+/* html태그에 직접적으로 스타일 주기 */
+
+body{
+  display : contents
+}
+
+
+/* 상단 네비바 오른쪽으로 정렬 */
+.navber{
+  float : right;
+/*   border : 1px solid red; /* 이렇게 경계선 확인 해서 내가 스타일 주고 싶은데가 어딘지 알아야함 */
+  margin : 15px; /* margin 만 쓰면 모든 방향에 다 이만큼의 간격을 주겠다는 뜻 */
+}
+
+/* 네비바 a태그로 감싸져있기 때문에 밑줄 있음 --> 없애는 방법 */
+.navbar-item{
+  text-decoration : none;
+  color : black;
+  margin-right : 15px;
+}
+
+/* 설정한 이름을 가진 html태그에: hover라는 이벤트를 주게 되면 밑줄이 나오게끔 해라 */
+.navbar-item:hover {
+  text-decoration : underline;
+}
+
+.main {
+  margin-top : 200px;
+  text-align : center;
+}
+
+.input-area{
+  margin-top : 20px;
+}
+
+.input-box{
+  width : 561px;
+  height : 44px;
+  border-radius: 24px;  /* 모서리 */
+  border : 1px solid #dfe1e5;
+  padding-left : 50px;
+  padding-right : 50px;
+}
+
+.search-icon{
+  position : relative;
+  left : 40px;
+}
+
+.mic-icon{
+  position : relative;
+  right : 40px;
+}
+
+.button-area{
+  padding : 18px 0px;
+}
+
+.button-style{
+  height : 36px;
+  background-color : #f8f9fa;
+  border : 1px solid #f8f9fa;
+  border-radius : 4px;
+  padding: 0 16px;
+  margin: 11px 4px;
+}
+
+.button-style:hover{
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.language {
+  font-size : small;
+  font-family: Apple SD Gothic Neo,arial,sans-serif;
+}
+
+.language-item {
+  text-decoration : none;
+  padding: 0 3px;
+
+}
+
+.language-item:hover{
+  text-decoration : underline;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  background: #f2f2f2;
+  /*position:absolute 때문에 속성들을 담는 칸만 백그라운드색처리가 되었기 때문에 이를 전체 div값처럼
+  다 펴주기 위해서 넓이 100% --->( 여기서 100%는 내가 스타일을 주고 있는 footer의 최상단 부모 즉
+  스크린 전체 크기값을 말하므로 100%하면 화면 전체를 말하는 것이다) 로 지정 : 일종의 노하우*/
+  width: 100%;
+}
+
+.part-vietnam{
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color : rgba(0,0,0,.54);
+  /*margin: 0px 30px;*/
+}
+
+.part-bottom{
+  padding: 15px 30px;
+  font-size: 15px;
+  color : rgba(0,0,0,.54);
+}
+.second-span{
+  float : right;
+}
+
+.text-deco{
+  /*border: 5px solid red;*/
+  text-decoration: none;
+  color : rgba(0,0,0,.54);
+  margin-right : 20px;
+}
+/*.text-deco:nth-child(1){*/
+/*  margin: 0;*/
+/*}*/
+
+.text-deco:last-child {
+  margin: 0;
+}
+
+.text-deco:hover{
+  text-decoration: underline;
+}

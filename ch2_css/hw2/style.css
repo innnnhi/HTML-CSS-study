@@ -1,0 +1,36 @@
+*{
+    background : linear-gradient(63deg, rgb(153, 153, 153) 23%, transparent 23%) 7px 0px / 16px 48px, linear-gradient(63deg, transparent 74%, rgb(153, 153, 153) 78%), linear-gradient(63deg, transparent 34%, rgb(153, 153, 153) 38%, rgb(153, 153, 153) 58%, transparent 62%), rgb(68, 68, 68); --darkreader-inline-bgimage:linear-gradient(63deg, #52585c 23%, rgba(0, 0, 0, 0) 23%), linear-gradient(63deg, rgba(0, 0, 0, 0) 74%, #52585c 78%), linear-gradient(63deg, rgba(0, 0, 0, 0) 34%, #52585c 38%, #52585c 58%, rgba(0, 0, 0, 0) 62%); --darkreader-inline-bgcolor:#33373a;
+  }
+  
+  h1{
+    color : #9b59b6;
+  }
+  
+  .center {
+    text-align : center;
+  }
+  body div:first-child{
+    margin : 0% 10%;
+  }
+  p{
+    font-size : 16px;
+    font-family :  Verdana;
+    font-style :  italic ;
+  }
+  
+  .sub-header{
+    color :  #2980b9; 
+  }
+  
+  p::first-letter{
+    font-size : 200%;
+    color :  #2980b9;
+  }
+  
+  h1:before{
+    content : "Topic : " ;
+  }
+  
+  ul li:nth-child(2n){
+      color : red
+  }
